@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.post {
+    max-width: 700px;
+    margin-inline: auto;
+    transform: scale(0.8);
+}
+
+.postOwner {
+    padding-top: 0.5rem;
+}
+
+.postCaption {
+    font-size: 17px;
+    padding: 0.5rem 0;
+}
+
+.reactionsBtn > svg, .commentsBtn > svg {
+    width: 1.9rem;
+}
+
+.postReactions_and_postBtn_parent{
+    width: 100%;
+}
+
+.postReactions > div:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.postImage img {
+    max-width: 100%;
+}
+
+.postBtn > button {
+    flex: 1;
+    justify-content: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.profile {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: gray;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.highlightedComments {
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.name {
+    font-weight: 600;
+    cursor: pointer;
+}
+.comment {
+    font-size: 14px;
+    cursor: pointer;
+}
